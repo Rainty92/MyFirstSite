@@ -1,0 +1,65 @@
+.fullscreen_skill{
+	display: flex;
+	width: 100%;
+	background: url(../../../img/bg/bg3.jpg) center/ cover no-repeat fixed;
+	height: 900px;
+	.skills {
+		user-select:none;
+		flex: 1 1 auto;
+		max-width: 1200px;
+		margin: 0 auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		p{
+			display: block;
+			margin-top: 10px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.header_skills {
+			margin-top: 40px;
+			display: flex;
+			justify-content: center;
+			.h2 {
+
+			}
+			img {
+				width: 80px;
+				height: 80px;
+				margin-left: 20px; 
+			}
+		}
+		.myskills {
+				font-family: 'Open Sans', sans-serif;
+				display: flex;
+				justify-content: center;
+				justify-content: space-around;
+				.type_of_skill {
+					flex-direction: column;
+					margin-top: 120px;
+					width: 150px;
+					&:hover {
+							transform:scale(1.1);
+							transition: 0.3s;
+							text-shadow: 2px 3px 3px rgb(25,25,25);
+							img{
+								filter: drop-shadow(3px 5px 5px #000);
+							}
+						}
+
+					a{
+						color: black;
+							}
+					img{
+						width: 100px;
+					}
+					span {
+						display: block;
+						font-size: 25px;
+
+				}
+			}
+		}
+	}
+}
+

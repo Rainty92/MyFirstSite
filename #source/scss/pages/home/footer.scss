@@ -1,0 +1,52 @@
+.fullscreen_footer {
+	background-color: rgb(0,0,0, 0.9);
+
+	.footer {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-top: 15px; 
+		height: 130px;
+		display: flex;
+		justify-content: space-around;
+
+
+		.footer_box{
+			color: rgb(200,200,200, 0.6);
+			font-family: 'Open Sans', sans-serif;
+			width: 250px;
+			user-select:none;
+			li{
+				margin-top: 5px;
+			.box_header{
+				color: rgb(250,250,250, 0.8);
+				display: block;
+				margin-bottom: 10px;
+				
+			}
+			a{
+				color: rgb(200,200,200, 0.6);
+				&:hover{
+					color:white;
+				}
+
+			}
+			}
+
+			.footer_portfolio{
+				color: rgb(200,200,200, 0.6);
+				font-size: 13px;
+				display: block;
+			}
+
+			
+				}
+				.middle_box  {
+					padding-left: 90px;
+				}
+				.last_box {
+					padding-left: 100px;
+				}
+			}
+
+		
+}

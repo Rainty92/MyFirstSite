@@ -1,0 +1,36 @@
+@import "nullstyle.scss";
+//-------home---------//
+@import "pages/home/navbar.scss";
+@import "pages/home/block1.scss";
+@import "pages/home/block2.scss";
+@import "pages/home/footer.scss";
+@import "pages/home/block3skills.scss";
+@import "pages/home/feedback.scss";
+//------about me-----//
+@import "pages/about_me/main_about_me.scss";
+//------thank you-----//
+@import "pages/thank_you/main_thank_you.scss";
+
+body{
+}
+//------../../fonts--------//
+@font-face {
+	font-family: 'B52 Regular';
+	src: url('../../fonts/B52 Regular.eot');
+	src: local('☺'), url('../../fonts/B52 Regular.woff') format('woff'), url('../../fonts/B52 Regular.ttf') format('truetype'), url('../../fonts/B52 Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+
+h2 {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 30px;
+}
