@@ -94,3 +94,25 @@
 .randomNum_game {
 	display: none;
 }
+
+
+@media only screen and (max-width : 1224px) {
+
+.conditions_game {
+	font-size: 20px;
+	margin: 0 auto;
+	max-width: 700px;
+	color: red;
+}
+.result_attempt_games {
+	flex-direction: column-reverse;
+	.result {
+		margin-top: 20px;
+		margin-bottom: -20px;
+		margin-left: 80px;
+		justify-content: center;
+		.span_result {
+		}
+	}
+}
+}

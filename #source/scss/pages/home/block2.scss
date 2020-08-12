@@ -83,7 +83,7 @@
 	&:hover {
 					background: black;
 					transform: scale(1.3);
-					transition: 1s;
+					transition: ease-in 0.3s;
 					color: rgb(6,186,209);
 					border: 1px solid rgb(161,159,255);
 					img {
