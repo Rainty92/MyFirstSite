@@ -1,23 +1,24 @@
 <!DOCTYPE html>
+<html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/style.css" >
+	<link rel="stylesheet" type="text/css" href="../../css/style.css" >
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 	<meta charset="utf-8">
-	<title>About me</title>
+	<title></title>
 </head>
 <body>
 	<div class="wrapper">
-	<header>
+			<header>
 		<div class="fullscreen_navbar">
 			<div class="navbar">
 	<!-- 			<div class="logo"><img class="imgLogo" src="img/logo.png"></div> -->
 				<div class="nav">
 				<ul>
-					<li><a href="../index.html">HOME</a></li>
-					<li><a href="#">ABOUT ME</a></li>
-					<li><a href="games/games.html">???</a></li>
+					<li><a href="../../index.html">HOME</a></li>
+					<li><a href="../adoutme.html">ABOUT ME</a></li>
+					<li><a href="#">???</a></li>
 					<li><a href="#CONTACTS">CONTACTS</a></li>
 				</ul>
 				</div>
@@ -26,24 +27,22 @@
 		</div>
 	</header>
 <!------------------------main---------------------------->
-
 <main class="mainBox_aboutMe">
-	<div class="contentBox">
-		<div class="content">
-			<div class="box text">
-				<span>Досье №</span>
-				<ul>
-					<li>Имя: Иван</li>
-					<li>Дата рождения: 1992 г.</li>
-					<li>Профессиональная деятельность: <h1>HTML верстальщик</h1></li>
-				</ul>
-			</div>
-			<div class="box img"><img src="../img/about_me/myAvatar.png"></div>
+	<div class="contentBox_games">
+		<div class="nameGames">Игра угадай число</div>
+		<div class="conditions_game">Я загадаю для вас число от 0 до 10. Ваша задача угадать это число. Вам будут помогать мои подсказки. Если число будет меньше загаданного, то в графе 'Результат' появится надпись - меньше, а если больше, то соответственно - больше.</div>
+		<div class="inputNum">Введите число: <input type="text" name="" class="numBer"></div>
+		<div class="result_attempt_games">
+			<div class="result">Результат:<span class="span_result"></span></div><div class="attempt">Попытка №<span class="span_attempt"></span></div>
 		</div>
-		
+		<div class="btn_games">
+			<div class="check_games"><a href="#" class="btn_check_games btn_games_style">Проверить</a></div>
+			<div class="newGame"><a href="#" class="btn_new_games btn_games_style">NewGame</a></div>
+			<div class="randomNum_game"></div>
+		</div>
 	</div>
 </main>
-	<!------------------------footer---------------------------->
+<!------------------------footer---------------------------->
 	<footer>
 	<div class="fullscreen_footer">
 		<div class="footer">
@@ -67,7 +66,8 @@
 		</div>
 	</div>
 	</footer>
-</div>
-
+		</div>
+	</div>
+	<script src="jsGames.js"></script>
 </body>
 </html>

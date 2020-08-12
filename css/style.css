@@ -485,14 +485,14 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-.mainBox {
+.mainBox_aboutMe {
   display: flex;
   flex: 1 1 auto;
   background: url(../../../../img/about_me/bg.jpg) center/cover no-repeat fixed;
   width: 100%;
   max-height: 100vh;
 }
-.mainBox .contentBox {
+.mainBox_aboutMe .contentBox {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -500,34 +500,34 @@ h1, h2, h3, h4, h5, h6 {
   height: 800px;
   margin: 0 auto;
 }
-.mainBox .contentBox .content {
+.mainBox_aboutMe .contentBox .content {
   display: flex;
   justify-content: center;
   vertical-align: middle;
   align-items: center;
 }
-.mainBox .contentBox .content .box {
+.mainBox_aboutMe .contentBox .content .box {
   margin-top: 250px;
   width: 500px;
   display: flex;
   justify-content: center;
 }
-.mainBox .contentBox .content .box span {
+.mainBox_aboutMe .contentBox .content .box span {
   margin-bottom: 10px;
   font-size: 40px;
   font-family: "B52 Regular";
 }
-.mainBox .contentBox .content .box li {
+.mainBox_aboutMe .contentBox .content .box li {
   font-family: "B52 Regular";
   font-size: 18px;
   display: flex;
 }
-.mainBox .contentBox .content .box img {
+.mainBox_aboutMe .contentBox .content .box img {
   max-width: 250px;
   max-height: 250px;
   filter: drop-shadow(3px 3px 10px #000);
 }
-.mainBox .contentBox .content .text {
+.mainBox_aboutMe .contentBox .content .text {
   background: rgba(255, 255, 255, 0.2);
   font-family: "B52 Regular";
   flex-direction: column;
@@ -566,6 +566,99 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+}
+
+.contentBox_games {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+.contentBox_games .nameGames {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  color: white;
+}
+.contentBox_games .conditions_game {
+  font-size: 15px;
+  margin-top: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.contentBox_games .inputNum {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contentBox_games .inputNum .numBer {
+  height: 40px;
+  width: 50px;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.contentBox_games .inputNum .numBer:focus {
+  background: #ffddc7;
+  border: 2px solid white;
+}
+.contentBox_games .result_attempt_games {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.contentBox_games .result_attempt_games .result {
+  display: flex;
+}
+.contentBox_games .result_attempt_games .result .span_result {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  margin-left: 10px;
+}
+.contentBox_games .result_attempt_games .span_attempt {
+  margin-left: 10px;
+}
+.contentBox_games .btn_games {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+.contentBox_games .btn_games .btn_games_style {
+  color: white;
+  border: 2px solid white;
+  margin: 50px 20px;
+  padding: 5px;
+}
+.contentBox_games .btn_games .btn_games_style:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 10px black;
+}
+
+.changeColor_game {
+  background: red;
+}
+
+.changeColor_result {
+  color: #ff7518;
+  font-weight: bold;
+}
+
+.randomNum_game {
+  display: none;
 }
 
 @font-face {

@@ -1,0 +1,96 @@
+.contentBox_games {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		max-width: 1200px;
+		height: 700px;
+		margin: 0 auto;
+		justify-content: center;
+		text-align: center;
+		.nameGames {
+			display: flex;
+			justify-content: center;
+			text-transform: uppercase;
+			font-size: 40px;
+			font-family: 'Open Sans', sans-serif;
+			background-color: rgb(0,0,0, 0.3);
+			padding: 30px;
+			color: white;
+		}
+		.conditions_game{
+				font-size: 15px;
+				margin-top: 20px;
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+			}
+		.inputNum {
+			margin-top: 20px;
+			color: white;
+			font-size: 20px;
+			font-family: 'Open Sans', sans-serif;
+			.numBer {
+				height: 40px;
+				width: 50px;
+				font-size: 25px;
+				font-family: 'Open Sans', sans-serif;
+				&:focus {
+					background: #ffddc7;
+					border: 2px solid white;
+				}
+			}
+			}
+			.result_attempt_games{
+				margin-top: 20px;
+				display: flex;
+				justify-content: center;
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 20px;
+				.result{
+					display: flex;
+					.span_result{
+						display: flex;
+						width: 500px;
+						height: 40px;
+						margin-left: 10px;
+
+					}
+				}
+				.span_attempt{
+					margin-left: 10px;
+				}
+
+			}
+			.btn_games{
+				display: flex;
+				justify-content: center;
+				text-transform: uppercase;
+				font-family: 'Open Sans', sans-serif;
+				margin-top: 50px;
+				.btn_games_style{
+					color: white;
+					border: 2px solid white;
+					margin:50px 20px;
+					padding: 5px;
+					&:hover {
+						background: rgb(255,255,255,0.2);
+						box-shadow: 1px 1px 10px black;
+					}
+				}
+			}
+}
+
+
+.changeColor_game {
+	background: red;
+}
+
+.changeColor_result{
+	color: #ff7518;
+	font-weight: bold;
+}
+
+
+.randomNum_game {
+	display: none;
+}
