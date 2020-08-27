@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 .fullscreen_skill {
   display: flex;
   width: 100%;
-  background: url(../../../img/bg/bg3.jpg) center/cover no-repeat fixed;
+  background: url(../img/bg/bg3.jpg) center/cover no-repeat fixed;
   height: 900px;
 }
 .fullscreen_skill .skills {
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 .fullscreen_feedback {
   display: flex;
   width: 100%;
-  background: url(../../../img/bg/bg2.jpg) center/cover no-repeat fixed;
+  background: url(../img/bg/bg2.jpg) center/cover no-repeat fixed;
   height: 600px;
   -webkit-user-select: none;
           user-select: none;
